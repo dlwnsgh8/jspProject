@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+#title {
+	width: 100%;
+	text-align: center;
+ 	font-weight: bold;
+	font-size: 40px;
+	color: #F9BBE1;
+	text-shadow: 3px 3px rgb(251, 213, 237);
+	margin:30px 0px 10px 0px;
+}
+#subtitle {
+	font-family: '서울한강 장체BL';
+	font-size: 15px;
+	text-align: right;
+}
+.line1 {
+	background-color: #E8FDF1;
+	width: 100%;
+	height: 30px;
+	text-align: left;
+	background: #D3FAE6;
+	padding: 30;
+}
+.login, .join, .basket {
+	float: right;
+	margin: 2.5px 25px;
+	border: 2px dotted black;
+	padding: 0px 20px 0px;
+}
+#nav {
+	margin: 15px 15px 15px 15px;
+	padding: 10px 10px 10px;
+	line-height: 80px;
+	color: gray;
+	font-size: 1.3em;
+	text-align: center;
+	font-family: "맑은 고딕";
+	width: 13%;
+	height: 600px;
+	float: left;
+	font-weight: bold;
+	background: -webkit-linear-gradient(180deg, white, #E1E1E1);
+	background: -moz-linear-gradient(180deg, white, #E1E1E1);
+	background: -o-linear-gradient(180deg, white, #E1E1E1);
+	background: linear-gradient(180deg, white, #E1E1E1);	
+	border-radius: 10px;
+}
+#nav:hover .menu {
+	height:150px;
+	background: white;
+}
+#nav .menu {
+	-moz-transition: 1s ease;
+	-o-transition: 1s ease;
+	-webkit-transition: 1s ease;
+	transition: 1s ease;
+	height: 50px;
+	padding: 10px 0px 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+.me {
+	font-size:.8em;
+	opacity: 0.0;
+	line-height: 40px;
+}
+.me:hover {
+	opacity: 1.0;
+	padding: -3px 0px -3px 0px;
+}
+a {
+	text-decoration: none;
+	color: gray;
+}
+#center {
+ 	margin: 15px 380px 15px 0px;
+	padding: 10px 10px 10px 10px;
+	float: right;
+	width: 62%;
+	height: 600px;
+	opacity: 0.5;
+	background-image: url('../images/main.jpg');
+	background-repeat: no-repeat left top fixed;
+	background-size: cover;
+	border-radius: 50px;
+}
+#footer {
+	clear: both;
+}
+table {
+	width: 100%;
+	padding: 0px 200px 50px 200px;
+	text-align: left;
+}
+td {
+	font-size:.7em;
+}
+th {text-decoration: underline;}
+.end {
+	font-size:.5em;
+	
+}
+#side1 {
+   	position:fixed;
+	left: 1350px;
+	top: -10px;
+	border: 2px dotted #F5E150;
+	background-color: #FCF4BE;
+	width: 280px;
+	height: 180px;
+	margin: 200px;
+	border-radius: 14px;
+}
+#side1 h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+#side1 p {
+	padding:10px;
+	font-size:.7em;
+}
+#side2 {
+	position: fixed;
+	left: 1350px;
+	top: 180px;
+	border: 2px dotted #F5E150;
+	background-color: #FCF4BE;
+	width: 280px;
+	height: 180px;
+	margin: 200px;
+	border-radius: 14px;	
+}
+#side2 h2 {
+	text-align: center;
+}
+#side2 p {
+	font-size: .7em;
+	padding:10px;
+	font-weight: bold;
+}
